@@ -43,7 +43,7 @@ pip install -r requirements.txt
 uvicorn api:app --reload
 ```
 
-# Run Bot
+## Run Bot
 
 ```bash
 python bot.py
