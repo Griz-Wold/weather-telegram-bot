@@ -28,7 +28,7 @@ services/weather.py    # Weather service
 ## Installation
 
 ```bash
-git clone <url>
+git clone https://github.com/Griz-Wold/weather-telegram-bot
 cd weather-telegram-bot
 
 python -m venv .venv
