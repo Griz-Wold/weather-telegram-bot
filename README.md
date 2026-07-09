@@ -1,6 +1,6 @@
 # Weather Telegram Bot
 
-Телеграм-бот для получения текущей погоды по названию города. После получения названия через Open-Meteo API извлекает данные и отправляет их пользователю.
+Телеграм-бот для получения текущей погоды по названию города с использованием Open-Meteo API.
 
 ## Stack
 
@@ -28,8 +28,11 @@ services/weather.py    # Weather service
 ## Installation
 
 ```bash
-git clone <url>
+git clone https://github.com/Griz-Wold/weather-telegram-bot
 cd weather-telegram-bot
+
+Create .env file:
+BOT_TOKEN=your_telegram_bot_token
 
 python -m venv .venv
 source .venv/bin/activate
@@ -43,7 +46,7 @@ pip install -r requirements.txt
 uvicorn api:app --reload
 ```
 
-# Run Bot
+## Run Bot
 
 ```bash
 python bot.py
