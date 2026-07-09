@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 TOKEN = os.getenv("BOT_TOKEN")
-URL = "http://127.0.0.1:8000/weather"
+URL = os.getenv("API_URL", "http://127.0.0.1:8000/weather")
 
 
 class WeatherState(StatesGroup):
