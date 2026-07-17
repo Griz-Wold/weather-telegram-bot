@@ -1,6 +1,6 @@
 # Weather Telegram Bot
 
-Телеграм-бот для получения текущей погоды по названию города с использованием Open-Meteo API.
+A Telegram bot that fetches current weather data by city name using the Open-Meteo API.
 
 ## Stack
 
@@ -12,8 +12,8 @@
 
 ## Features
 
-- Отправляет данные о погоде по названию города
-- Поддерживает названия городов на русском и английском языках
+- Sends weather data based on the city name
+- Supports city names in both Russian and English
 - Reply Keyboard
 - FSM
 
